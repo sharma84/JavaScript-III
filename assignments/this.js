@@ -1,8 +1,8 @@
 /* The for principles of "this";
 * in your own words. explain the four principle for the "this" keyword below.
 *
-* 1. 
-* 2. 
+* 1. Window Binding: global scope, default
+* 2. Implicit Binding: function is called by a preceding dot ----
 * 3. 
 * 4. 
 *
@@ -12,6 +12,12 @@
 // Principle 1
 
 // code example for Window Binding
+function myName(name){
+    console.log(this);
+    return name;
+}
+myName('John');
+
 
 // Principle 2
 
